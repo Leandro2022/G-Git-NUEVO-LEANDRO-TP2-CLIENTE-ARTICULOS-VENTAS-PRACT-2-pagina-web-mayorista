@@ -1,0 +1,102 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Inscripción </title>
+
+  <!-- Enlace al documento css. no aplicable en codepen.
+  <link rel="stylesheet" type="text/css" href="con">
+-->
+<link rel="stylesheet" href="estilos..css"/>
+  </head>
+
+
+<body>
+  <div align="center">
+    <p> <small>Alegre Leandro Nicólas-SISTEMA VENTA MAYORISTA "SVM" ™</small></p> 
+</div>
+<meta charset="UTF-8">
+    <div align="center">
+      <img src="img/fondo menu.jpeg"border= "5" vspace="20" hspace="10" width="1500" height=""/>
+    </div>
+    <h3>
+        <p FONT COLOR="white">
+         En este formulario tendra que colocar todo sus datos  obligatorio para poder mandar al correo a la empresa"SVM", luego de mandar el Formulario la empresa verificara sus datos y será agregado al Sistema para que luego usted con solo su DNI pueda hacer sus compra de mercaderias.</p> 
+    </h3>
+  
+  <div class="contact_form">
+
+    <div align="center">      
+      <h1>Formulario de Inscripción del "SVM"</h1></div>
+        <h3>Agrege sus datos para que el administrador/a pueda agregarle a la base de datos del Sistema.</h3>
+
+
+          <form action="submeter-formulario.php" method="post">       
+
+            
+              <p>
+                  <label for="nombre" class="colocar_nombre"><b>Nombre</b>
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+              <p>
+                  <label for="apellido" class="Colocar_apellido"><b>Apellido</b>
+                      <span class="obligatorio">*</span>
+                  </label>
+                  <input type="text" name="introducir_apellido" id="apellido" required="obligatorio" placeholder="Escriba su Apellido">
+                 </p> 
+
+               <p>
+                     <label for="DNI" class="colocar_su_dni"><b>DNI</b>
+                        <span  class="obligatorio">*</span>
+                     </label>
+                     <input type="number" name="introducir_el_DNI" id="DNI" required="obligatorio" placeholder="Escriba su DNI">
+                    </p>
+
+                <p>
+                    <label for="telefono" class="colocar_su_telefono"><b>Teléfono</b>
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="number" name="intriducir_su_telefono" id="telefono"required="obligatorio"placeholder="Escriba su teléfono">                
+                </p>
+
+                    <p>
+                  <label for="email" class="colocar_email"><b>Email</b>
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+
+                <p>
+                    <label for="direccion" class="colocar_direccion"><b>Dirección</b>
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="direccion" name="introducir_direccion" id="direccion" required="obligatorio" placeholder="Escriba su Direccíon">
+                </p>
+
+                <p> 
+                <label for ="localidad"class="seleccione_localidad"><b>Localidad</b>
+                    <span class="obligatorio">*</span>
+                </label>
+                <input type="text" name="introducir_localidad" id="localidad" required="Escriba su localidad" placeholder="Escriba la Localidad">
+                </p>
+               
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+                <button type= "reset" name="Borrar_datos" id="reset"><p>Borrar</p></button> 
+                <p class="aviso">
+                  <span class="obligatorio">♦</span><b>Todos los campos son obligatorios antes de enviar el formulario. </b>
+                </p>        
+                <p class="aviso">
+                  <span class="obliagatorio">♦</span><small><b>Sistema Venta Mayorista "SVM"</b></small></p>
+                <p class="aviso">
+                  <span class="obligatorio">♦</span><small><b>Diseñador: Alegre Leandro Nicolas</b></small></p>  
+                
+          </form>
+    </div>  
+  </div>
+
+</body>
+</html>
+
+
+<!-- creado por javiniguez.com, Julio 2019 -->
